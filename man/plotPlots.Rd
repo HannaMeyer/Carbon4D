@@ -4,7 +4,10 @@
 \alias{plotPlots}
 \title{Plot the Carbon4D plots}
 \usage{
-plotPlots()
+plotPlots(url)
+}
+\arguments{
+\item{url}{URL of the Carbon-4D data base}
 }
 \value{
 A mapview output
@@ -12,16 +15,10 @@ A mapview output
 \description{
 Plot the Carbon4D plots
 }
-\note{
-
-}
 \examples{
 \dontrun{
 plotPlots()
 }
-}
-\references{
-
 }
 \author{
 Hanna Meyer

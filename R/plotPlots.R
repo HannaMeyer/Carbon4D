@@ -1,12 +1,10 @@
 #' Plot the Carbon4D plots
 #' @description
-#' @param URL of the Carbon-4D data base
+#' @param url URL of the Carbon-4D data base
 #' @details 
-#' @note 
 #' @return A mapview output
 #' @author
 #' Hanna Meyer
-#' @references 
 #' @examples
 #' \dontrun{
 #' plotPlots()
