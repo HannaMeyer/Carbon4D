@@ -1,0 +1,18 @@
+Package: Carbon4D
+Type: Package
+Title: Functions for handling and analysing data of the Carbon4D project
+Version: 0.1.0
+Authors@R: c(person("Hanna", "Meyer", email = "hanna.meyer@uni-muenster.de", role = c("cre", "aut")),
+             person("Nele", "Meyer", role = c("aut")))
+Author: Hanna Meyer [cre, aut], nele Meyer [aut]
+Maintainer: Hanna Meyer <hanna.meyer@uni-muenster.de>
+Description: Functions for handling and analysing data of the Carbon4D project. Currently useful for project-internal use only.
+License: GPL (>= 2)
+URL: https://github.com/HannaMeyer/Carbon4D
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 3.5.0)
+Imports: sf, mapview, readr, gsheet, knitr
+Suggests: 
+RoxygenNote: 7.1.0
+VignetteBuilder: knitr
